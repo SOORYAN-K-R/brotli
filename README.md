@@ -22,15 +22,15 @@ Usage
 To compress a file, run the following command in your terminal:
 
 
-brotli <input_file> -o <output_file>
+./brotli.exe <input_file> -o <output_file>
 
 Examples:
 
 Compress a PNG file:
-brotli kodim07.png -o kodim07.png.br
+./brotli.exe kodim07.png -o kodim07.png.br
 
 Compress a text file:
-brotli 135-0.txt -o 135-0.br
+./brotli.exe 135-0.txt -o 135-0.br
 
 Notes:
 Ensure the input file is in the same directory as the executable or provide the full path to the file.
